@@ -32,7 +32,7 @@ header nav a {
   padding-top:3%;
   padding-bottom: 3%;
   color: black;
-  font-size: 13px;
+  font-size: 14px;
   text-decoration: none;
   
 }
@@ -44,27 +44,52 @@ header nav a:first-child {
 header nav a:last-child {
   margin-right: 10%;
 }
-
+header{
+  display:flex;
+  justify-content:center;
+  justify-content:space-evenly;
+  
+}
+.one{
+  padding-right:11% 
+}
+.two{
+  padding-right:11% 
+}
+.three{
+  padding-right:11% 
+}
+.four{
+  padding-right:11% 
+}
+.five{
+  padding-right:11% 
+}
 
 header nav {
-  
   display:flex;
-  flex-direction: row;
-  justify-content:space-evenly;
+  justify-content:flex-end;
+  
 }
 
 body {
 	line-height: 1;
   margin-top:1%;
 }
+.logo{
+  padding-left:1%;
+  display:block;
+}
+ .topp{
+   display:block;
+  padding-top:1%;
+  padding-bottom:1%;
+  margin-left:auto;
+   margin-right:auto
+}
 
-body img {
-  
-  margin-left:12%;
-  margin-bottom:-4%;
-  padding:0%;
-  display:flex;
-  justify-content: center;
+img {
+  max-width:100%;
 }
 ol, ul {
 	list-style: none;
