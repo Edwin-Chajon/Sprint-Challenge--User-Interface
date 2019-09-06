@@ -28,6 +28,23 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+.one{
+  padding-left: 30%;
+  padding-right:8% 
+}
+.two{
+  padding-right:8% 
+}
+.three{
+  padding-right:8% 
+}
+.four{
+  padding-right:8% 
+}
+.five{
+  padding-right:8% 
+}
+
 header nav a {
   padding-top:3%;
   padding-bottom: 3%;
@@ -37,55 +54,17 @@ header nav a {
   
 }
 
-header nav a:first-child {
-  margin-left:22%;
-}
-
-header nav a:last-child {
-  margin-right: 10%;
-}
-header{
-  display:flex;
-  justify-content:center;
-  justify-content:space-evenly;
-  
-}
-.one{
-  padding-right:11% 
-}
-.two{
-  padding-right:11% 
-}
-.three{
-  padding-right:11% 
-}
-.four{
-  padding-right:11% 
-}
-.five{
-  padding-right:11% 
-}
-
-header nav {
-  display:flex;
-  justify-content:flex-end;
-  
-}
-
 body {
 	line-height: 1;
   margin-top:1%;
 }
 .logo{
-  padding-left:1%;
-  display:block;
+  padding-left: 10%;
+  
 }
- .topp{
-   display:block;
-  padding-top:1%;
-  padding-bottom:1%;
-  margin-left:auto;
-   margin-right:auto
+ .topContainer{
+  display: flex;
+  justify-content: center;
 }
 
 img {
