@@ -1,0 +1,216 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ .topContainer{
+  display: flex;
+  justify-content: center;
+  padding-top:4%;
+}
+header nav a {
+  padding-top: 3%;
+  padding-bottom: 2%;
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+}
+p {
+  width: 300px;
+    margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.one {
+  padding-left: 30%;
+  padding-right: 8%;
+}
+.two {
+  padding-right: 8%;
+}
+.three {
+  padding-right: 8%;
+}
+.four {
+  padding-right: 8%;
+}
+.five {
+  padding-right: 8%;
+}
+
+img {
+  max-width: 100%;
+}
+.logo {
+  padding-left: 10%;
+}
+
+.toprow {
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+
+}
+.bottomrow {
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+  padding-bottom: 4%
+}
+* {
+  box-sizing: border-box;
+}
+p {
+  line-height: 1.4;
+}
+
+.body .text-container {
+    padding-right: 4%;
+}
+
+.body .text-container:last-child {
+    padding-right: 0;
+}
+
+
+footer {
+  width: 100%;
+  background: black;
+}
+
+footer nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+}
+
+  h3 {
+  background-color: white;
+  border: solid 2px;
+  color: black;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: ;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.flavor{
+  width: 100%;
+}
+
